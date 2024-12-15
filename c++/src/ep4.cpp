@@ -1,6 +1,14 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
+
+/*
+
+This code is for sobel filters. Try them :) !!!!
+
+*/
+
+
 int main() {
     // Carga de la imagen en escala de grises
     cv::Mat img = cv::imread("/home/uli/Desktop/tec/personal/vision/data/Leo.jpg", cv::IMREAD_GRAYSCALE);
